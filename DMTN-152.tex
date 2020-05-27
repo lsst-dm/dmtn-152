@@ -16,7 +16,7 @@
 % \setDocSubtitle{A subtitle}
 
 \author{%
-Leanne Guy
+Leanne Guy and  \v{Z}eljko Ivezi\'{c}
 }
 
 \setDocRef{DMTN-152}
@@ -28,7 +28,7 @@ Leanne Guy
 % \setDocCurator{The Curator of this Document}
 
 \setDocAbstract{%
-In March 2020, Rubin Observatory hosted a workshop on the topic of image process- ing algorithms for the Legacy Survey of Space and Time (LSST). (Rubin Algorithms Workshop (2020)).  This technote is a summary of that workshop
+In March 2020, Rubin Observatory hosted a workshop on the topic of image process- ing algorithms for the Legacy Survey of Space and Time (LSST), (\cite{RAW2020}).  This technote is a summary of that workshop
 }
 
 % Change history defined here.
@@ -36,7 +36,7 @@ In March 2020, Rubin Observatory hosted a workshop on the topic of image process
 % Fields: VERSION, DATE, DESCRIPTION, OWNER NAME.
 % See LPM-51 for version number policy.
 \setDocChangeRecord{%
-  \addtohist{1}{YYYY-MM-DD}{Unreleased.}{Leanne Guy}
+  \addtohist{1}{2020-05-26}{First draft.}{Leanne Guy}
 }
 
 
@@ -50,6 +50,59 @@ In March 2020, Rubin Observatory hosted a workshop on the topic of image process
 % ADD CONTENT HERE
 % You can also use the \input command to include several content files.
 
+\section{Introduction}
+The Rubin science pipelines are described in \citeds{LDM-148} and the resultant data products in \citeds{LSE-163}.
+
+% The summary of the topics presented 
+\section{Summary of topics discussed}
+The following provides a summary of the presentations and discussions held at the Rubin Algorithms Workshop.
+All talks and presentations are linked from the workshop web page (\cite{RAW2020}).
+
+% Introduction to the LSST Science Pipelines. 
+% \subsection{Introduction to the science pipelines}
+
+\subsection{Instrument Signature Removal}
+ \textbf{ \textit{Speaker:} Robert Lupton (Rubin) } 
+
+% Discussion from Mike's talk should be woven in to the PSF summary
+\subsection{PSF estimation}
+ \textbf{ \textit{Speakers:} Josh Meyers (Rubin), Mike Jarvis (Invited) } 
+
+\subsection{Deblending}
+ \textbf{ \textit{Speaker:} Fred Moolekamp (Rubin) } 
+
+\subsection{Building and Using Coadds}
+ \textbf{ \textit{Speaker:} Jim Bosch (Rubin) } 
+
+\subsection{Background Estimation}
+ \textbf{ \textit{Speaker:} Yusra AlSyyaad(Rubin) } 
+
+% Discussion from Gary's talk should be woven in to the calibration summaries
+\subsection{Photometric Calibration}
+ \textbf{ \textit{Speaker:} Eli Rykoff (Rubin),  Gary Bernstein  (Invited)  } 
+
+\subsection{Astrometric Calibration}
+ \textbf{ \textit{Speaker:} Jim  Bosch (Rubin), Gary Bernstein (Invited)  } 
+
+% Discussion from Gene's talk should be woven in to the Difference Imaging summary
+\subsection{Difference Imaging}
+ \textbf{ \textit{Speakers:} Eric Bellm (Rubin), Gene Magnier (Invited)  } 
+
+\subsection{DCR in Templates}
+ \textbf{ \textit{Speakers:} Ian Sullivan (Rubin) } 
+  
+ % Discussion from Konrad's talk should be woven in to the Galaxy Photometry summary
+ \subsection{Galaxy Photometry}
+ \textbf{ \textit{Speakers:} Jim  Bosch (Rubin), Dan Taranu (Rubin), Konrad Kuijken (Invited)  } 
+
+ % Discussion from Erin's talk should be woven in to Shape Measurements summary
+  \subsection{Shape  Measurements }
+   \textbf{ \textit{Speakers:} Jim  Bosch (Rubin),  Erin  Sheldon  (Invited)  } 
+  
+  \subsection{Stellar Crowded Fields}
+ \textbf{ \textit{Speakers:} Colin Slater  (Rubin) } 
+
+\section{Conclusions}
 \appendix
 % Include all the relevant bib files.
 % https://lsst-texmf.lsst.io/lsstdoc.html#bibliographies
